@@ -1,16 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Net;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Bjerre.Scraper
 {
     public class Scraper
     {
-        public CookieContainer _cookieContainer = new CookieContainer();
+        public CookieContainer CookieContainer = new CookieContainer();
 
         public string LastContent { get; set; }
         public string LastCookies { get; set; }
@@ -31,7 +28,7 @@ namespace Bjerre.Scraper
         {
             var request = (HttpWebRequest)WebRequest.Create(url);
             request.Method = (postdata != null) ? Constants.ScrapeConstants.POST_REQUEST : Constants.ScrapeConstants.GET_REQUEST;
-            request.CookieContainer = _cookieContainer;
+            request.CookieContainer = CookieContainer;
             if (postdata != null)
             {
                 request.ContentType = "application/x-www-form-urlencoded";
@@ -62,10 +59,7 @@ namespace Bjerre.Scraper
         public string ShowCookies(string url)
         {
             var uri = new Uri(url);
-            return _cookieContainer.GetCookies(uri).ToString();
-
-            //for (int i = 0; i < response.Headers.Count; ++i)
-            //    Console.WriteLine("\nHeader Name:{0}, Value :{1}", response.Headers.Keys[i], response.Headers[i]);
+            return CookieContainer.GetCookies(uri).ToString();
         }
     }
 }
