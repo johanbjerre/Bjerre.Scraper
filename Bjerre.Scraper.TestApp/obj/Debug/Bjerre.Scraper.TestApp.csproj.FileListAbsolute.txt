@@ -1,0 +1,11 @@
+C:\projects\Bjerre\Bjerre.Scraper\Bjerre.Scraper.TestApp\bin\Debug\Bjerre.Scraper.TestApp.exe.config
+C:\projects\Bjerre\Bjerre.Scraper\Bjerre.Scraper.TestApp\bin\Debug\Bjerre.Scraper.TestApp.exe
+C:\projects\Bjerre\Bjerre.Scraper\Bjerre.Scraper.TestApp\bin\Debug\Bjerre.Scraper.TestApp.pdb
+C:\projects\Bjerre\Bjerre.Scraper\Bjerre.Scraper.TestApp\bin\Debug\Bjerre.Scraper.dll
+C:\projects\Bjerre\Bjerre.Scraper\Bjerre.Scraper.TestApp\bin\Debug\Bjerre.Scraper.pdb
+C:\projects\Bjerre\Bjerre.Scraper\Bjerre.Scraper.TestApp\obj\Debug\Bjerre.Scraper.TestApp.csprojResolveAssemblyReference.cache
+C:\projects\Bjerre\Bjerre.Scraper\Bjerre.Scraper.TestApp\obj\Debug\Bjerre.Scraper.TestApp.Form1.resources
+C:\projects\Bjerre\Bjerre.Scraper\Bjerre.Scraper.TestApp\obj\Debug\Bjerre.Scraper.TestApp.Properties.Resources.resources
+C:\projects\Bjerre\Bjerre.Scraper\Bjerre.Scraper.TestApp\obj\Debug\Bjerre.Scraper.TestApp.csproj.GenerateResource.Cache
+C:\projects\Bjerre\Bjerre.Scraper\Bjerre.Scraper.TestApp\obj\Debug\Bjerre.Scraper.TestApp.exe
+C:\projects\Bjerre\Bjerre.Scraper\Bjerre.Scraper.TestApp\obj\Debug\Bjerre.Scraper.TestApp.pdb
