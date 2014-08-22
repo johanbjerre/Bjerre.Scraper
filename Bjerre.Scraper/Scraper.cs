@@ -19,12 +19,24 @@ namespace Bjerre.Scraper
 
         public string PerformRequest(string url, string postdata)
         {
-            var request = CreateRequest(url, postdata);
+            var request = CreateRequest(url, postdata, null);
             MakeRequest(postdata,request);
             return LastContent;
         }
 
-        private HttpWebRequest CreateRequest(string url, string postdata)
+        public string PerformRequestWithUserAgent(string url, string userAgent)
+        {
+            return PerformRequestWithUserAgent(url, userAgent, null);
+        }
+
+        public string PerformRequestWithUserAgent(string url, string userAgent, string postdata)
+        {
+            var request = CreateRequest(url, postdata,userAgent);
+            MakeRequest(postdata, request);
+            return LastContent;
+        }
+
+        private HttpWebRequest CreateRequest(string url, string postdata,string userAgent)
         {
             var request = (HttpWebRequest)WebRequest.Create(url);
             request.Method = (postdata != null) ? Constants.ScrapeConstants.POST_REQUEST : Constants.ScrapeConstants.GET_REQUEST;
@@ -37,6 +49,8 @@ namespace Bjerre.Scraper
                 var requestStream = request.GetRequestStream();
                 requestStream.Write(bytes, 0, bytes.Length);
             }
+            if (userAgent != null)
+                request.UserAgent = userAgent;
             return request;
         }
 

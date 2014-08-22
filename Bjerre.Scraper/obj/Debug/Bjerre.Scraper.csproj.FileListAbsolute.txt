@@ -1,5 +1,4 @@
 C:\projects\Bjerre\Bjerre.Scraper\Bjerre.Scraper\bin\Debug\Bjerre.Scraper.dll
 C:\projects\Bjerre\Bjerre.Scraper\Bjerre.Scraper\bin\Debug\Bjerre.Scraper.pdb
-C:\projects\Bjerre\Bjerre.Scraper\Bjerre.Scraper\obj\Debug\Bjerre.Scraper.csprojResolveAssemblyReference.cache
 C:\projects\Bjerre\Bjerre.Scraper\Bjerre.Scraper\obj\Debug\Bjerre.Scraper.dll
 C:\projects\Bjerre\Bjerre.Scraper\Bjerre.Scraper\obj\Debug\Bjerre.Scraper.pdb
